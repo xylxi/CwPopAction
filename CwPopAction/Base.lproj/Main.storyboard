@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="sSt-oS-U7d">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="WUB-3r-RfG">
+            <objects>
+                <navigationController id="sSt-oS-U7d" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="r7b-M6-8Ga">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="13U-AU-OBX" kind="relationship" relationship="rootViewController" id="hSa-fg-cRw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JSx-YG-lWf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-388.5" y="51.75"/>
+        </scene>
+        <!--首页-->
+        <scene sceneID="lGf-Sj-S2w">
+            <objects>
+                <viewController id="13U-AU-OBX" customClass="RootViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gFR-ru-Xxd"/>
+                        <viewControllerLayoutGuide type="bottom" id="yAi-Kx-K95"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fVJ-Ek-ic3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O6N-y8-ZRc">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="F9l-VC-yLn" kind="push" id="bs5-p8-Z5P"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="O6N-y8-ZRc" secondAttribute="centerX" id="9rF-L1-b3h"/>
+                            <constraint firstAttribute="centerY" secondItem="O6N-y8-ZRc" secondAttribute="centerY" constant="189" id="aNb-Ed-84v"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="O6N-y8-ZRc"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="9rF-L1-b3h"/>
+                                <exclude reference="aNb-Ed-84v"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="O6N-y8-ZRc"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="9rF-L1-b3h"/>
+                                <include reference="aNb-Ed-84v"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="首页" id="jMf-lC-5Ze"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4zY-2E-eMW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="283.5" y="51.75"/>
+        </scene>
+        <!--第二页-->
+        <scene sceneID="zxR-SQ-dUZ">
+            <objects>
+                <viewController id="F9l-VC-yLn" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gDj-GQ-eOO"/>
+                        <viewControllerLayoutGuide type="bottom" id="U2j-lb-o8Q"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XST-id-3Be">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="第二页" id="MHr-vS-TBf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cHx-4R-Ymm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="940.5" y="51.75"/>
+        </scene>
+    </scenes>
+</document>

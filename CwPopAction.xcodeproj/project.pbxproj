@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BA28FAC1B4C17E700FEF32E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA28FAB1B4C17E700FEF32E /* main.m */; };
+		3BA28FAF1B4C17E700FEF32E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA28FAE1B4C17E700FEF32E /* AppDelegate.m */; };
+		3BA28FB21B4C17E700FEF32E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA28FB11B4C17E700FEF32E /* ViewController.m */; };
+		3BA28FB51B4C17E700FEF32E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA28FB31B4C17E700FEF32E /* Main.storyboard */; };
+		3BA28FB71B4C17E700FEF32E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA28FB61B4C17E700FEF32E /* Images.xcassets */; };
+		3BA28FBA1B4C17E700FEF32E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BA28FB81B4C17E700FEF32E /* LaunchScreen.xib */; };
+		3BA28FC61B4C17E700FEF32E /* CwPopActionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA28FC51B4C17E700FEF32E /* CwPopActionTests.m */; };
+		3BA28FD11B4C190F00FEF32E /* CwNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA28FD01B4C190F00FEF32E /* CwNavigationController.m */; };
+		3BA28FD41B4C259000FEF32E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA28FD31B4C259000FEF32E /* RootViewController.m */; };
+		3BA28FDA1B4C2C1700FEF32E /* UINavigationController+CWShouldPopExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA28FD91B4C2C1700FEF32E /* UINavigationController+CWShouldPopExtention.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BA28FC01B4C17E700FEF32E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BA28F9E1B4C17E600FEF32E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BA28FA51B4C17E600FEF32E;
+			remoteInfo = CwPopAction;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BA28FA61B4C17E600FEF32E /* CwPopAction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CwPopAction.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA28FAA1B4C17E600FEF32E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BA28FAB1B4C17E700FEF32E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BA28FAD1B4C17E700FEF32E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3BA28FAE1B4C17E700FEF32E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3BA28FB01B4C17E700FEF32E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3BA28FB11B4C17E700FEF32E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3BA28FB41B4C17E700FEF32E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BA28FB61B4C17E700FEF32E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3BA28FB91B4C17E700FEF32E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3BA28FBF1B4C17E700FEF32E /* CwPopActionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CwPopActionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA28FC41B4C17E700FEF32E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BA28FC51B4C17E700FEF32E /* CwPopActionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CwPopActionTests.m; sourceTree = "<group>"; };
+		3BA28FCF1B4C190F00FEF32E /* CwNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CwNavigationController.h; sourceTree = "<group>"; };
+		3BA28FD01B4C190F00FEF32E /* CwNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CwNavigationController.m; sourceTree = "<group>"; };
+		3BA28FD21B4C259000FEF32E /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		3BA28FD31B4C259000FEF32E /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		3BA28FD81B4C2C1700FEF32E /* UINavigationController+CWShouldPopExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+CWShouldPopExtention.h"; sourceTree = "<group>"; };
+		3BA28FD91B4C2C1700FEF32E /* UINavigationController+CWShouldPopExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+CWShouldPopExtention.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BA28FA31B4C17E600FEF32E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA28FBC1B4C17E700FEF32E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BA28F9D1B4C17E600FEF32E = {
+			isa = PBXGroup;
+			children = (
+				3BA28FA81B4C17E600FEF32E /* CwPopAction */,
+				3BA28FC21B4C17E700FEF32E /* CwPopActionTests */,
+				3BA28FA71B4C17E600FEF32E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BA28FA71B4C17E600FEF32E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BA28FA61B4C17E600FEF32E /* CwPopAction.app */,
+				3BA28FBF1B4C17E700FEF32E /* CwPopActionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BA28FA81B4C17E600FEF32E /* CwPopAction */ = {
+			isa = PBXGroup;
+			children = (
+				3BA28FAD1B4C17E700FEF32E /* AppDelegate.h */,
+				3BA28FAE1B4C17E700FEF32E /* AppDelegate.m */,
+				3BA28FB01B4C17E700FEF32E /* ViewController.h */,
+				3BA28FB11B4C17E700FEF32E /* ViewController.m */,
+				3BA28FD21B4C259000FEF32E /* RootViewController.h */,
+				3BA28FD31B4C259000FEF32E /* RootViewController.m */,
+				3BA28FCF1B4C190F00FEF32E /* CwNavigationController.h */,
+				3BA28FD01B4C190F00FEF32E /* CwNavigationController.m */,
+				3BA28FD81B4C2C1700FEF32E /* UINavigationController+CWShouldPopExtention.h */,
+				3BA28FD91B4C2C1700FEF32E /* UINavigationController+CWShouldPopExtention.m */,
+				3BA28FB31B4C17E700FEF32E /* Main.storyboard */,
+				3BA28FB61B4C17E700FEF32E /* Images.xcassets */,
+				3BA28FB81B4C17E700FEF32E /* LaunchScreen.xib */,
+				3BA28FA91B4C17E600FEF32E /* Supporting Files */,
+			);
+			path = CwPopAction;
+			sourceTree = "<group>";
+		};
+		3BA28FA91B4C17E600FEF32E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BA28FAA1B4C17E600FEF32E /* Info.plist */,
+				3BA28FAB1B4C17E700FEF32E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BA28FC21B4C17E700FEF32E /* CwPopActionTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BA28FC51B4C17E700FEF32E /* CwPopActionTests.m */,
+				3BA28FC31B4C17E700FEF32E /* Supporting Files */,
+			);
+			path = CwPopActionTests;
+			sourceTree = "<group>";
+		};
+		3BA28FC31B4C17E700FEF32E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BA28FC41B4C17E700FEF32E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BA28FA51B4C17E600FEF32E /* CwPopAction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BA28FC91B4C17E700FEF32E /* Build configuration list for PBXNativeTarget "CwPopAction" */;
+			buildPhases = (
+				3BA28FA21B4C17E600FEF32E /* Sources */,
+				3BA28FA31B4C17E600FEF32E /* Frameworks */,
+				3BA28FA41B4C17E600FEF32E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CwPopAction;
+			productName = CwPopAction;
+			productReference = 3BA28FA61B4C17E600FEF32E /* CwPopAction.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BA28FBE1B4C17E700FEF32E /* CwPopActionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BA28FCC1B4C17E700FEF32E /* Build configuration list for PBXNativeTarget "CwPopActionTests" */;
+			buildPhases = (
+				3BA28FBB1B4C17E700FEF32E /* Sources */,
+				3BA28FBC1B4C17E700FEF32E /* Frameworks */,
+				3BA28FBD1B4C17E700FEF32E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BA28FC11B4C17E700FEF32E /* PBXTargetDependency */,
+			);
+			name = CwPopActionTests;
+			productName = CwPopActionTests;
+			productReference = 3BA28FBF1B4C17E700FEF32E /* CwPopActionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BA28F9E1B4C17E600FEF32E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = RobuSoft;
+				TargetAttributes = {
+					3BA28FA51B4C17E600FEF32E = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					3BA28FBE1B4C17E700FEF32E = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 3BA28FA51B4C17E600FEF32E;
+					};
+				};
+			};
+			buildConfigurationList = 3BA28FA11B4C17E600FEF32E /* Build configuration list for PBXProject "CwPopAction" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BA28F9D1B4C17E600FEF32E;
+			productRefGroup = 3BA28FA71B4C17E600FEF32E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BA28FA51B4C17E600FEF32E /* CwPopAction */,
+				3BA28FBE1B4C17E700FEF32E /* CwPopActionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BA28FA41B4C17E600FEF32E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA28FB51B4C17E700FEF32E /* Main.storyboard in Resources */,
+				3BA28FBA1B4C17E700FEF32E /* LaunchScreen.xib in Resources */,
+				3BA28FB71B4C17E700FEF32E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA28FBD1B4C17E700FEF32E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BA28FA21B4C17E600FEF32E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA28FB21B4C17E700FEF32E /* ViewController.m in Sources */,
+				3BA28FD11B4C190F00FEF32E /* CwNavigationController.m in Sources */,
+				3BA28FDA1B4C2C1700FEF32E /* UINavigationController+CWShouldPopExtention.m in Sources */,
+				3BA28FAF1B4C17E700FEF32E /* AppDelegate.m in Sources */,
+				3BA28FAC1B4C17E700FEF32E /* main.m in Sources */,
+				3BA28FD41B4C259000FEF32E /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA28FBB1B4C17E700FEF32E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA28FC61B4C17E700FEF32E /* CwPopActionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BA28FC11B4C17E700FEF32E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BA28FA51B4C17E600FEF32E /* CwPopAction */;
+			targetProxy = 3BA28FC01B4C17E700FEF32E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BA28FB31B4C17E700FEF32E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BA28FB41B4C17E700FEF32E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BA28FB81B4C17E700FEF32E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BA28FB91B4C17E700FEF32E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BA28FC71B4C17E700FEF32E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3BA28FC81B4C17E700FEF32E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BA28FCA1B4C17E700FEF32E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CwPopAction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BA28FCB1B4C17E700FEF32E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CwPopAction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3BA28FCD1B4C17E700FEF32E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CwPopActionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CwPopAction.app/CwPopAction";
+			};
+			name = Debug;
+		};
+		3BA28FCE1B4C17E700FEF32E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CwPopActionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CwPopAction.app/CwPopAction";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BA28FA11B4C17E600FEF32E /* Build configuration list for PBXProject "CwPopAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA28FC71B4C17E700FEF32E /* Debug */,
+				3BA28FC81B4C17E700FEF32E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BA28FC91B4C17E700FEF32E /* Build configuration list for PBXNativeTarget "CwPopAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA28FCA1B4C17E700FEF32E /* Debug */,
+				3BA28FCB1B4C17E700FEF32E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3BA28FCC1B4C17E700FEF32E /* Build configuration list for PBXNativeTarget "CwPopActionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA28FCD1B4C17E700FEF32E /* Debug */,
+				3BA28FCE1B4C17E700FEF32E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BA28F9E1B4C17E600FEF32E /* Project object */;
+}
